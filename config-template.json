@@ -1,0 +1,7 @@
+{
+	"server" : "<invite to use if not in a server>",
+	"musicDir" : "<path to dl dir>",
+	"musicChannel" : "Music",
+	"reportChannel" : "bot-commands",
+	"commandChannels" : ["bot-commands"]
+}
