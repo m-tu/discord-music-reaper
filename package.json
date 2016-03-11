@@ -1,0 +1,31 @@
+{
+  "name": "discord-music-reaper",
+  "version": "1.0.0",
+  "description": "Discord bot for playing music",
+  "main": "reaper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m-tu/discord-music-reaper.git"
+  },
+  "keywords": [
+    "discord",
+    "music",
+    "bot"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/m-tu/discord-music-reaper/issues"
+  },
+  "homepage": "https://github.com/m-tu/discord-music-reaper#readme",
+  "dependencies": {
+    "discord.js": "^6.0.0",
+    "fluent-ffmpeg": "^2.0.1",
+    "schlock": "^0.2.1",
+    "through2": "2.0.0",
+    "ytdl-core": "0.7.9"
+  }
+}

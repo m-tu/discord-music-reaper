@@ -3,7 +3,7 @@
 Error.stackTraceLimit = Infinity;
 
 try {
-	var Discord = require("discord.js-indev");
+	var Discord = require("discord.js");
 	var ytdl = require("ytdl-core");
 	var Schlock = require("schlock");
 	var fs = require("fs");
@@ -449,7 +449,7 @@ BotReaper.prototype.preloadTrack = function (trackInfo, eagerLoad) {
 	var self = this;
 	var markerFile = self.getTrackFilePath(trackInfo.id, ".complete");
 	var trackFile = self.getTrackFilePath(trackInfo.id, ".track");
-	
+
 	if (self.preloading.hasOwnProperty(trackInfo.id)) {
 		console.log("INFO: Track " + trackInfo.id + " is already in the middle of preloading.");
 		return;
